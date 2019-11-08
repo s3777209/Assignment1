@@ -44,112 +44,181 @@
             </div>
         </nav>
 
-        <div id ="1" class="container">
-            <div class="card bg-secondary text-white">
-                <div class="card-body">
+        <script>
+            function switching(name) {
+                var x = "p" + name
+                var p1 = document.getElementById(x);
+
+
+                if (p1.style.display === "none") {
+                    p1.style.display = "block";
+
+                } else {
+                    p1.style.display = "none";
+                }
+            }
+        </script>
+        <div id="1" class="container">
+            <div class="card bg-light text-dark">
+                <button type="button" class="btn btn-light" onclick="switching(1)">
                     <h2 class="text-center">Personal Information</h2>
-                </div>
+                </button>
             </div>
             <div class="card bg-light text-dark">
-                <div class="card-body">
-                        - My name is Nguyen Hoang Phuc. My personal email address is phucnguyen696969@gmail.com.
-                        My school email address which I usually use to contact with RMIT and my colleague. My student ID is
-                        s3777209 which is a little lucky for me, because I’m a Christian and we most of the Christian believe 7 is a
-                        lucky number ,and yes I got 3 out of 7.
+                <div id="p1" style="display: none;" class="card-body">
+                    - My name is Nguyen Hoang Phuc. My personal email address is phucnguyen696969@gmail.com.
+                    My school email address which I usually use to contact with RMIT and my colleague. My student ID is
+                    s3777209 which is a little lucky for me, because I’m a Christian and we most of the Christian
+                    believe 7 is a
+                    lucky number ,and yes I got 3 out of 7.
                 </div>
             </div>
         </div>
-        <div id ="2" class="container">
-            <div class="card bg-secondary text-white">
-                <div class="card-body">
+        <div id="2" class="container">
+            <div class="card bg-light text-dark">
+                <button type="button" class="btn btn-light" onclick="switching(2)">
                     <h2 class="text-center">Interest in IT</h2>
-                </div>
+                </button>
             </div>
             <div class="card bg-light text-dark">
-                <div class="card-body">
-                        I’m interesting in IT because of it’s function. When I was young I always confused about how the computer data worked. The data which woke my curiosity were gaming data. I remembered I love to play warcraft back then, and at that time custom map that made by warcraft’s customers or the fan of warcrafts were amazing.
-                        <br>All I need to do was downloading and wait for a moment. When I finished and I opened the downloaded file, it was only a simple data file which contain numerous words and numbers. The special of them was I could not understand or even acknowledge any of them, I thought it was not english .And it was, It was code and code (language of the computer). 
-                        <br>So I wondered why just those words could transfer into a big map of the game, and it even more interesting when their it also transfer into specific details of the map. It was a big curiosity for me back then. At the current age I’m still wonder why because I am not at that level to understand all the code inside that small file
-                        
-                        <br>There are different thing  that I have to learn in IT, but only writing code make me feel excited  the most. Coding is a fundamental work in IT, all the majors that link to IT all need code. So Far  coding is not easy, because it like math plus foreigner language. It is logical, but also we need to learn by heart a lot. This compound is a big challenge for new students which want to get in It. 
-                        When a newbie know to code, he will has a feel of accomplish which can motivate him or her to learn more and understand more. . A the moment I can code easy things like normal math, turtle picture and other things,. I’m not a pro in IT yet but I have to consider that coding is the basic thing in IT but the problem here is each app in PC may contain different code for specific circumstances.	
-                        <br>I choose IT when I came to RMIT. I understood that if I switched my major I would have studied again as a freshman. But I have no regret for it. Because RMIT create a high quality education. This university have a modern learning style  compare to other universities in Vietnam, the programs is delivery through lectures , tutorials, projects, group work and industry placement. The Special thing about them is professional recognition .
-                        The Bachelor of Information Technology program is accredited at the professional level by the Australian Computer Society (ACS). The ACS is a signatory to the Seoul Accord, an agreement responsible for accreditation or recognition of tertiary-level computing and IT related qualifications worldwide. This shows commitment to good practice in computing and IT-related education.
-            
-                        <br>The system of RMIT is well done. I have to admit that because all students need to reach 6.5 in itelts test . The other option is participate in the English course which is provided by RMIT, and students also need to pass lv6. At this level those typical of students already have the same knowledge and skills as same 6.5 itelts students, so the university can ensure that they are able to get into the major. 
-                        This is good because now a day, every international company need English as the core language to communicate or even some Vietnamese company.
-                        
+                <div id="p2" style="display: none;" class="card-body">
+                    I’m interesting in IT because of it’s function. When I was young I always confused about how the
+                    computer data worked. The data which woke my curiosity were gaming data. I remembered I love to play
+                    warcraft back then, and at that time custom map that made by warcraft’s customers or the fan of
+                    warcrafts were amazing.
+                    <br>All I need to do was downloading and wait for a moment. When I finished and I opened the
+                    downloaded file, it was only a simple data file which contain numerous words and numbers. The
+                    special of them was I could not understand or even acknowledge any of them, I thought it was not
+                    english .And it was, It was code and code (language of the computer).
+                    <br>So I wondered why just those words could transfer into a big map of the game, and it even more
+                    interesting when their it also transfer into specific details of the map. It was a big curiosity for
+                    me back then. At the current age I’m still wonder why because I am not at that level to understand
+                    all the code inside that small file
+
+                    <br>There are different thing that I have to learn in IT, but only writing code make me feel excited
+                    the most. Coding is a fundamental work in IT, all the majors that link to IT all need code. So Far
+                    coding is not easy, because it like math plus foreigner language. It is logical, but also we need to
+                    learn by heart a lot. This compound is a big challenge for new students which want to get in It.
+                    When a newbie know to code, he will has a feel of accomplish which can motivate him or her to learn
+                    more and understand more. . A the moment I can code easy things like normal math, turtle picture and
+                    other things,. I’m not a pro in IT yet but I have to consider that coding is the basic thing in IT
+                    but the problem here is each app in PC may contain different code for specific circumstances.
+                    <br>I choose IT when I came to RMIT. I understood that if I switched my major I would have studied
+                    again as a freshman. But I have no regret for it. Because RMIT create a high quality education. This
+                    university have a modern learning style compare to other universities in Vietnam, the programs is
+                    delivery through lectures , tutorials, projects, group work and industry placement. The Special
+                    thing about them is professional recognition .
+                    The Bachelor of Information Technology program is accredited at the professional level by the
+                    Australian Computer Society (ACS). The ACS is a signatory to the Seoul Accord, an agreement
+                    responsible for accreditation or recognition of tertiary-level computing and IT related
+                    qualifications worldwide. This shows commitment to good practice in computing and IT-related
+                    education.
+
+                    <br>The system of RMIT is well done. I have to admit that because all students need to reach 6.5 in
+                    itelts test . The other option is participate in the English course which is provided by RMIT, and
+                    students also need to pass lv6. At this level those typical of students already have the same
+                    knowledge and skills as same 6.5 itelts students, so the university can ensure that they are able to
+                    get into the major.
+                    This is good because now a day, every international company need English as the core language to
+                    communicate or even some Vietnamese company.
+
                 </div>
             </div>
         </div>
-        <div id ="3" class="container">
-            <div class="card bg-secondary text-white">
-                <div class="card-body">
+        <div id="3" class="container">
+            <div class="card bg-light text-dark">
+                <button type="button" class="btn btn-light" onclick="switching(3)">
                     <h2 class="text-center">Ideal Job</h2>
-                </div>
+                </button>
             </div>
             <div class="card bg-light text-dark">
-                <div class="card-body">
-                        I want to be a web developer in the future. The main reason it is easy for me to find a job with a good salary.
-                        We are living in a modern world so every individual or organization need to have their own website in order to introduce about themselves. But this job also require some technical skills such as :
-                   Web developer: Perform development activities to build and maintain WEB-based software systems using J2EE, SPRING frameworks, JavaScript frameworks and databases. 
-                   I can choose your focus on front- end, back-end full of stack
-                   
-           
-                       <br>1.	Technical skills:
-                       <br>+ Good Diploma / Degree in Computer Science / Information Technologies.
-                       <br>+ Java EE developer experience (Java Core, Java EE , SPRING).
-                       <br>+Web developer knowledge ( HTML, CSS, Javascript, jQuery, JSON etc).
-                       <br>+Database / SQL knowledge (SQL, Stored Procedures, and MySQL.)
-                       <br>+Familiar with Agile and Continuous Delivery ( deployment).
-                       <br>+Strong interpersonal and communications skills, both oral and written
-                       <br>+ Good understanding of multi-threaded Java applications is a PLUS
-                       <br>+Having experience of mobile app development is an added advantage
-                       <br>+ Able to work in a dynamic and ever-changing industry
-           
-                       
-                       <br>2.Collaborate skills:
-                       <br>+ Usually work with project managers and designers to make sure that the final product is well prepared.
-                       <br>+ Web developers do not often communicate directly with the customers, unless there are special cases. So keep in touch with the customer service team would be an ideal 
-                       <br>+ Listen to the feedback of the consumers and solve the website in a favor of the customers
-                       
+                <div id="p3" style="display: none;" class="card-body">
+                    I want to be a web developer in the future. The main reason it is easy for me to find a job with a
+                    good salary.
+                    We are living in a modern world so every individual or organization need to have their own website
+                    in order to introduce about themselves. But this job also require some technical skills such as :
+                    Web developer: Perform development activities to build and maintain WEB-based software systems using
+                    J2EE, SPRING frameworks, JavaScript frameworks and databases.
+                    I can choose your focus on front- end, back-end full of stack
+
+
+                    <br>1. Technical skills:
+                    <br>+ Good Diploma / Degree in Computer Science / Information Technologies.
+                    <br>+ Java EE developer experience (Java Core, Java EE , SPRING).
+                    <br>+Web developer knowledge ( HTML, CSS, Javascript, jQuery, JSON etc).
+                    <br>+Database / SQL knowledge (SQL, Stored Procedures, and MySQL.)
+                    <br>+Familiar with Agile and Continuous Delivery ( deployment).
+                    <br>+Strong interpersonal and communications skills, both oral and written
+                    <br>+ Good understanding of multi-threaded Java applications is a PLUS
+                    <br>+Having experience of mobile app development is an added advantage
+                    <br>+ Able to work in a dynamic and ever-changing industry
+
+
+                    <br>2.Collaborate skills:
+                    <br>+ Usually work with project managers and designers to make sure that the final product is well
+                    prepared.
+                    <br>+ Web developers do not often communicate directly with the customers, unless there are special
+                    cases. So keep in touch with the customer service team would be an ideal
+                    <br>+ Listen to the feedback of the consumers and solve the website in a favor of the customers
+
                 </div>
             </div>
         </div>
-        <div id ="4" class="container">
-            <div class="card bg-secondary text-white">
-                <div class="card-body">
+        <div id="4" class="container">
+            <div class="card bg-light text-dark">
+                <button type="button" class="btn btn-light" onclick="switching(4)">
                     <h2 class="text-center">Personal Profile</h2>
-                </div>
+                </button>
             </div>
             <div class="card bg-light text-dark">
-                <div class="card-body">
-                        -My personal profile is a mediator:
-            
-                        <br>+ Mediator is a  personality which is  very creativity in work. Because these type of people can link numerous things into a big picture, so we can have a better example for our work. Normally mediator can be creativity and visualize enough to develop a big image for their project. Therefore most of them are poets and actors. 
-                        
-                        <br>+ As my perspective. I do not know I’m a mediator or not but the test is quiet true about my personality, but just one different thing about me. I can be creativity, I can link many things and make it visualize for other people to see about the picture in my head. But I do not like to write or act so there is no chance I can be an actor or a poet. 
-                        We share the same personality that we do not like to have power, because with us power sometimes just make us feel tired and it is meaningless to us. 
-                        
-                        <br>+  We honor what is right or wrong, but I’m might be different. I also curious about math and logical, so that is why I choose IT as my major. I believe that math and logical can lead me to make a right decision. In mathematic everything make sense when it come to a right formula or a right function. 
-                        I do not choose business like most of people in RMIT because I do not know what to answer or to do when it come to a complicated situation, I just want to know what is right or wrong and try to fix it. 
-                        Like every others mediator, when people or my friends sad about something and they need me. Then of course I will try to make them feel better in emotionally, but after than I also try to help them to solve there problem because afraid that if the next time I would not be there for them, then who will help and take care of them. 
-                        So yes I’m sometimes can be more very motional like every mediator, but I also try to fix the problem after that. I believe that the best way to help other people is help them to fix the problem either in the emotional part and the situation part 
+                <div id="p4" style="display: none;" class="card-body">
+                    -My personal profile is a mediator:
+
+                    <br>+ Mediator is a personality which is very creativity in work. Because these type of people can
+                    link numerous things into a big picture, so we can have a better example for our work. Normally
+                    mediator can be creativity and visualize enough to develop a big image for their project. Therefore
+                    most of them are poets and actors.
+
+                    <br>+ As my perspective. I do not know I’m a mediator or not but the test is quiet true about my
+                    personality, but just one different thing about me. I can be creativity, I can link many things and
+                    make it visualize for other people to see about the picture in my head. But I do not like to write
+                    or act so there is no chance I can be an actor or a poet.
+                    We share the same personality that we do not like to have power, because with us power sometimes
+                    just make us feel tired and it is meaningless to us.
+
+                    <br>+ We honor what is right or wrong, but I’m might be different. I also curious about math and
+                    logical, so that is why I choose IT as my major. I believe that math and logical can lead me to make
+                    a right decision. In mathematic everything make sense when it come to a right formula or a right
+                    function.
+                    I do not choose business like most of people in RMIT because I do not know what to answer or to do
+                    when it come to a complicated situation, I just want to know what is right or wrong and try to fix
+                    it.
+                    Like every others mediator, when people or my friends sad about something and they need me. Then of
+                    course I will try to make them feel better in emotionally, but after than I also try to help them to
+                    solve there problem because afraid that if the next time I would not be there for them, then who
+                    will help and take care of them.
+                    So yes I’m sometimes can be more very motional like every mediator, but I also try to fix the
+                    problem after that. I believe that the best way to help other people is help them to fix the problem
+                    either in the emotional part and the situation part
                 </div>
             </div>
         </div>
-        <div id ="5" class="container">
-            <div class="card bg-secondary text-white">
-                <div class="card-body">
+        <div id="5" class="container">
+            <div class="card bg-light text-dark">
+                <button type="button" class="btn btn-light" onclick="switching(5)">
                     <h2 class="text-center">Project Ideas</h2>
-                </div>
+                </button>
             </div>
             <div class="card bg-light text-dark">
-                <div class="card-body">
+                <div id="p5" style="display: none;" class="card-body">
                     Content
                 </div>
             </div>
         </div>
+
+
+
+
 
     </div>
     <div class="container-fluiding-padding">
@@ -165,8 +234,19 @@
                 <a href="mailto: phucnguyen696969@gmail.com"><img
                         src="https://image.flaticon.com/icons/svg/281/281769.svg" class="img-fluid" width="30%"
                         height="30%"></a>
+
+
             </div>
+
+
+
         </div>
+
+
     </div>
+
+
+
 </body>
+
 </html>
